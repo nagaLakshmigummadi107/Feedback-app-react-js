@@ -1,0 +1,20 @@
+.emoji-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.emoji-image {
+  height: 100px;
+}
+
+.emoji-name {
+  text-align: center;
+}
+
+@media screen and (max-width: 575px) {
+  .emoji-image {
+    height: 60px;
+  }
+}

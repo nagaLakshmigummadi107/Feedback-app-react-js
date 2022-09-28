@@ -1,0 +1,70 @@
+/* Write your CSS code here. */
+body {
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.feedbackApp-bg-container {
+  height: 100vh;
+  background-image: linear-gradient(to right, #ffeeee, #ffc0bb);
+  font-family: 'Roboto';
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.feedbackApp-container {
+  background-color: #fff;
+  border-radius: 15px;
+  padding: 45px 30px;
+  display: flex;
+  flex-direction: column;
+  width: 80vw;
+  text-align: center;
+}
+
+.feedback-ques {
+  color: #0f172a;
+}
+
+.emojis-bg-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 15px;
+  padding: 0;
+}
+
+.thankYou-heading {
+  color: #0f172a;
+}
+
+.love-emoji {
+  height: 100px;
+  align-self: center;
+}
+
+@media screen and (min-width: 1440px) {
+  .feedbackApp-container {
+    width: 50vw;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .feedback-ques {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .feedback-ques {
+    font-size: 24px;
+  }
+
+  .love-emoji {
+    height: 60px;
+  }
+}
